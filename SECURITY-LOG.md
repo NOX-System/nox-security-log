@@ -5,6 +5,30 @@
 
 ---
 
+### ⚠ Pre-installed Vulnerability Found on Hostinger VPS (France)
+
+During infrastructure testing for the NỌX system, a publicly available VPS was rented from **Hostinger**, with the server located in **France**.  
+The operating system used was **Ubuntu Server (official “clean” image)** with no additional installation options selected.
+
+⚠️ **Issue Identified**:  
+Upon initial access and inspection, a **pre-installed monitoring and intervention agent**, part of the **Monarx (Monarch)** system, was discovered.  
+This agent was installed **without prior notice**, **without user consent**, and was silently running background processes.
+
+🛡️ While this poses **no threat to the NỌX system** — which is designed as a **fully P2P-based architecture** with no reliance on third-party servers — the presence of such software is considered **unethical and potentially dangerous in any user-controlled environment**.
+
+🔍 Actions Taken:
+
+- The Monarx agent was **completely removed**;
+- **Internal logging** of any future unauthorized activity was implemented;
+- The incident is **documented** as part of the broader security audit.
+
+📝 This notice is provided **for informational purposes only** and may be of interest to developers, researchers, and system administrators evaluating hosting providers.
+
+#### 🗓️ Logged: 2025-11-07
+
+
+
+
 ### 🗓️ 2025-10-26
 
 - ✅ Project status: **Active**
